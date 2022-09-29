@@ -1,0 +1,138 @@
+body {
+    background-image: url("/Users/kenzeyyoussef/Documents/projectss/first.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 50%;
+    margin-left: 35%;
+    margin-right: 15%;
+    color: white;
+    display:block;
+    
+}
+
+    
+.container{
+    display:center;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-align:center;
+    display:center;
+    margin-left: 15px;
+    margin-top: 30px;
+    line-height: 35px;
+    text-align: left;
+
+}
+
+
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: cursive;
+    font-size: 18px;
+    padding-left: 5%;
+}
+
+
+body::after{
+    content:'';
+    width:35%;
+    height: 111%;
+    background-color: #000d33 ;
+    position: absolute;
+    top:100px;
+    z-index: -1;
+    border-radius: 20px;
+    opacity: 0.4;
+    margin-left: -2%;
+   
+    
+    
+    
+    
+    
+}
+    
+
+.ul{
+    line-height: 25px;
+    margin-right: 10px;
+  
+}
+
+input, button, textarea,select{
+    font-family: inherit;
+    font-size:inherit;
+    line-height: inherit;
+    position: block;
+    width:50%;
+    
+    
+}
+
+.radio{
+    text-align: left;
+    padding:-70%;
+    padding-top: 0px;
+    line-height: 20px;
+    display:block;
+    padding-left: 0px;
+    margin-left: -230px;
+    
+   
+}
+   
+.checkbox{
+    margin-left: -230px;
+    padding-left: 0px;
+    display:block;
+    text-align: left;
+}
+
+.click{
+    margin-left:25%;
+}
+
+#sport,#programming, #shopping, #go, #drawing,#play, #dancing, #singing, #watch, #writing { 
+    margin-right: -20%;
+}
+
+
+#def, #maybe, #not{
+    margin-right: -20%;
+}
+
+h1{
+    text-shadow: blue 2px 2px;
+}
+
+footer{
+    text-shadow: blueviolet 2px 2px;
+    padding-left: 12%;
+}
+
+#submit{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    box-shadow: 1px;
+}
+
+#clear{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    box-shadow: 1px;
+}
+
+/* Mediaquery voor mobiele schermen*/
+@media (max-width: 1000px) {
+    
+}
+   
+#hobby{
+    margin-right:25%;
+}
